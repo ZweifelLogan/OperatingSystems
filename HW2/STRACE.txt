@@ -1,0 +1,14 @@
+What was the program that was executed?
+    The bash command echo. (prints arguments to the terminal)
+
+What arguments were passed to the program?
+    "echo" and "hello world from strace" is the argument.
+
+What are the file descriptors 1 and 2 that are used by the program?
+    File descriptor 1 represents the stdout from C, and file descriptor 2 represents stderr
+
+What happens when the program writes to file descriptor 1?
+    It is writing to stdout so in essence is writing what the output of the command/program will be, which is printing the input to the terminal.
+
+Did the program output anything? If so, what was the output?
+    The output is -- "hello world from strace\n"
